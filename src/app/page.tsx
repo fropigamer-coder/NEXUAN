@@ -65,7 +65,7 @@ export default function HomePage() {
               Soluciones de tecnología disruptiva y automatización de procesos de élite para empresas que no temen al cambio.
             </p>
             
-            <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center items-center lg:justify-start lg:items-start">
               <button className="px-8 py-4 bg-accent-blue text-black font-bold tech-border flex items-center justify-center gap-2 hover:bg-white hover:text-black transition-colors w-full sm:w-auto">
                 INICIAR PROYECTO <ArrowRight size={20} />
               </button>

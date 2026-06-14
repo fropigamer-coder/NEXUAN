@@ -15,7 +15,7 @@ export default function TerminalFooter() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           {/* Lado Izquierdo: Branding & Info */}
-          <div className="space-y-8">
+          <div className="space-y-8 flex flex-col items-center lg:items-start text-center lg:text-left">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-accent-blue flex items-center justify-center rounded-sm">
                 <span className="text-black font-black text-xl">N</span>

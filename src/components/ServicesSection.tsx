@@ -46,7 +46,7 @@ export default function ServicesSection() {
       </div>
 
       <div className="max-w-7xl mx-auto">
-        <div className="mb-20">
+        <div className="mb-20 text-center lg:text-left">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
