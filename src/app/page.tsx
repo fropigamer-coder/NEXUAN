@@ -57,30 +57,30 @@ export default function HomePage() {
               NEXUAN v3.0 // STARTUP
             </motion.div>
             
-            <h1 ref={titleRef} className="text-6xl md:text-8xl font-black mb-6 leading-none">
+            <h1 ref={titleRef} className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-none">
               AUTOMATIZAMOS EL <span className="text-accent-blue">FUTURO</span>.
             </h1>
             
-            <p ref={subtitleRef} className="text-xl md:text-2xl text-white/60 mb-10 max-w-2xl font-light">
+            <p ref={subtitleRef} className="text-lg md:text-xl lg:text-2xl text-white/60 mb-10 max-w-2xl font-light">
               Soluciones de tecnología disruptiva y automatización de procesos de élite para empresas que no temen al cambio.
             </p>
             
-            <div ref={ctaRef} className="flex flex-wrap gap-4 justify-center lg:justify-start">
-              <button className="px-8 py-4 bg-accent-blue text-black font-bold tech-border flex items-center gap-2 hover:bg-white hover:text-black transition-colors">
+            <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <button className="px-8 py-4 bg-accent-blue text-black font-bold tech-border flex items-center justify-center gap-2 hover:bg-white hover:text-black transition-colors w-full sm:w-auto">
                 INICIAR PROYECTO <ArrowRight size={20} />
               </button>
-              <button className="px-8 py-4 glass-effect font-bold hover:bg-white/10 transition-colors">
+              <button className="px-8 py-4 glass-effect font-bold hover:bg-white/10 transition-colors w-full sm:w-auto">
                 DESCUBRIR MÁS
               </button>
             </div>
           </div>
 
           {/* Visual Core */}
-          <div className="flex-1 flex justify-center items-center">
+          <div className="flex-1 flex justify-center items-center relative py-10 lg:py-0">
             <NexuanCore />
-            {/* Anillo decorativo */}
-            <div className="absolute w-[450px] h-[450px] border border-accent-blue/20 rounded-full animate-[spin_20s_linear_infinite]" />
-            <div className="absolute w-[500px] h-[500px] border border-accent-green/10 rounded-full animate-[spin_35s_linear_infinite_reverse]" />
+            {/* Anillo decorativo - ajustado para no desbordar en móviles */}
+            <div className="absolute w-[300px] h-[300px] md:w-[450px] md:h-[450px] border border-accent-blue/20 rounded-full animate-[spin_20s_linear_infinite]" />
+            <div className="absolute w-[350px] h-[350px] md:w-[500px] md:h-[500px] border border-accent-green/10 rounded-full animate-[spin_35s_linear_infinite_reverse]" />
           </div>
         </div>
 
