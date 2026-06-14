@@ -5,6 +5,9 @@ import SmoothScroll from "@/components/SmoothScroll";
 export const metadata: Metadata = {
   title: "NEXUAN | Elite Automation & Technology Startup",
   description: "Automatizamos el futuro con tecnologías disruptivas y soluciones de alta precisión.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
